@@ -1,0 +1,251 @@
+body {
+margin: 0%;
+background-color: rgb(41, 59, 95);
+
+}
+
+.cabecalho {
+display: flex;
+height: 100%;
+justify-content: space-between;/*esticar os elementos*/
+align-items: center ;
+background-color: rgb(41, 59, 95);
+
+}
+
+.cabecalho_logo {
+padding: 1.5em;
+width: 10.5em;
+margin-left: 40px;
+
+}
+
+.cabecalho_menu > a {
+margin-left: 1em;
+margin-right: 1em;
+padding: 1.86em 1.42em;
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.banner{
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url(imagens/cabana.jfif);
+background-size: cover;
+width: 100%;
+height: 500px;
+
+}
+
+.banner-texto{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+color: #ffffff;
+text-transform: uppercase;
+text-align: center;
+background-color: rgba(7, 29, 64, 0.333);
+padding: 20px;
+border-radius: 18px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+
+.banner-texto:hover{
+transform: translate(-10px);
+box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.botao-saiba-mais{
+background-color: rgb(99, 120, 153);
+color: #ffffff;
+text-decoration: none;
+border-radius: 5px;
+padding: 10px;
+margin-top: 5px;
+align-self: center;
+
+}
+
+.botao-saiba-mais:hover{
+    transform: translateY(-2px);
+    background-color: rgb(128, 137, 148);
+    box-shadow: 0 20 30 0  rgba(0, 0, 0, 0.3);
+}
+
+.container-pai{
+display: flex;
+padding: 25px;
+justify-content: space-evenly;
+background-color: #4b6b85;
+flex-wrap: wrap;
+gap: 10px;
+
+}
+
+.container-filho{
+background-color: rgb(4, 54, 93);
+width: 200px;
+font-family: monospace;
+color: azure;
+border-radius: 10px;
+padding: 20px;
+text-align: center;
+
+}
+
+.container-filho:hover{
+transform: translateY(-5px);
+background-color: rgb(27, 41, 61);
+box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.imagens {
+width: 50%; /*tamanho das imagens*/
+border-radius: 50%; /*cantos arredondados*/
+
+}
+
+h2{
+font-size: 18px;
+}
+
+p {
+font-weight: lighter;
+text-align: center;
+margin-top: 5px;
+font-size: 12px;
+
+}
+
+.equipe-magao{
+display: flex;
+padding: 25px;
+background-color: rgb(41, 59, 95);
+border: 1px solid #ccc;
+margin: 20px;
+align-items: center;
+justify-content: space-evenly;
+
+}
+
+.equipe-imagens {
+width: 400;
+height: auto;
+
+
+}
+
+.equipe-apoio > h2 {
+font-size: 22px;
+font-family: inherit;
+
+}
+
+.equipe-apoio > p {
+    font-size: 17px;
+    }
+
+    .equipe-apoio {
+        background-color: rgb(30, 46, 76);
+        color: aliceblue;
+
+    }
+
+.ciao {
+display: flex;
+padding: 20px;
+background-color: rgb(41, 59, 95);
+border: 1px solid #ccc; 
+margin: 26px;
+align-items: center;
+justify-content: space-evenly;
+width: auto;
+height: 122;
+
+
+}
+
+.ciao > div {
+border: 1px solid #ccc;
+height: 100px;
+}
+
+
+.ciao > div > img {
+    height: 100px;
+    
+}
+
+.banner2{ 
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url(imagens/quadros.gif); 
+/* substitua "banner.jpg" pelo caminho da sua imagem de banner */
+background-size: cover;
+text-align: center;
+width: 100%;
+color: rgb(222, 218, 218);
+height: 500px;
+
+}
+
+.form-container {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: rgba(0, 0, 0, 0.343);
+/* fundo formulario tranparente */
+padding: 20px;
+border-radius: 5px;
+width: 100%;
+max-width: 400px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+form{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+label{
+margin-top: 10px;
+text-align: left;
+}
+
+input, textarea {
+width: 100%;
+padding: 10px;
+margin-top: spx;
+border: 1px solid #ccc;
+border-radius: 3px ;
+
+}
+
+button{
+margin-top: 10px;
+padding: 10px 20px;
+background-color: #283c6d;
+color: #fff;
+border: none;
+cursor: pointer;
+}
+
+button:hover{
+background-color: #1f2d56;
+}
+
+
+
+    
+    
+   
